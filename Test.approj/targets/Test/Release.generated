@@ -1,0 +1,203 @@
+{
+    "assets": [
+        {
+            "asset": "Test/Shaders/Shader.fsh", 
+            "target": "Shader.fsh"
+        }, 
+        {
+            "asset": "DM_Icon_152.png", 
+            "target": "DM_Icon_152.png"
+        }, 
+        {
+            "asset": "Test/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "Test/Shaders/Shader.vsh", 
+            "target": "Shader.vsh"
+        }, 
+        {
+            "asset": "Test/Images.xcassets", 
+            "target": null
+        }
+    ], 
+    "config": {
+        "APPLICATION_FULL_NAME": "Test", 
+        "APPLICATION_IDENTIFIER": "Blah.Test", 
+        "APPLICATION_NAME": "Test", 
+        "LONG_VERSION": "1.0", 
+        "SHORT_VERSION": "1.0", 
+        "TEMPLATE_VALUES": {
+            "EXECUTABLE_NAME": "Test", 
+            "PRODUCT_NAME": "Test"
+        }
+    }, 
+    "defines": {
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 70000
+    }, 
+    "deps": [
+        "UIKit", 
+        "StoreKit", 
+        "AdSupport", 
+        "UIKit", 
+        "SystemConfiguration", 
+        "QuartzCore", 
+        "MediaPlayer", 
+        "AudioToolbox", 
+        "AVFoundation", 
+        "CoreMedia", 
+        "CFNetwork", 
+        "CoreLocation", 
+        "CoreFoundation", 
+        "CoreAudio", 
+        "OpenGLES", 
+        "CoreGraphics", 
+        "GLKit", 
+        "Foundation"
+    ], 
+    "flags": [
+        "-U__STRICT_ANSI__", 
+        {
+            "flag": "-U__STRICT_ANSI__", 
+            "type": "c++"
+        }, 
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wempty-body", 
+        "-Wshorten-64-to-32", 
+        "-Wno-deprecated-declarations", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wuninitialized", 
+        "-Wunused-function", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }, 
+        {
+            "flag": "-Wundeclared-selector", 
+            "type": "objc"
+        }
+    ], 
+    "header_paths": [
+        {
+            "header_path": "Test-generated-files.hmap", 
+            "hmap": {}, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "Test-own-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Test-all-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Test-project-headers.hmap", 
+            "hmap": {
+                "AppDelegate.h": {
+                    "key": "AppDelegate.h", 
+                    "prefix": "Test/", 
+                    "suffix": "AppDelegate.h"
+                }, 
+                "GLKMathUtils.h": {
+                    "key": "GLKMathUtils.h", 
+                    "prefix": "./", 
+                    "suffix": "GLKMathUtils.h"
+                }, 
+                "Test-Prefix.pch": {
+                    "key": "Test-Prefix.pch", 
+                    "prefix": "Test/", 
+                    "suffix": "Test-Prefix.pch"
+                }, 
+                "ViewController.h": {
+                    "key": "ViewController.h", 
+                    "prefix": "Test/", 
+                    "suffix": "ViewController.h"
+                }
+            }, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "/var/folders/pc/yshrjpfx6v9339cjhg4vcdww0000gp/T/tmp0zlDBO/BUILT_PRODUCTS_DIR/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/var/folders/pc/yshrjpfx6v9339cjhg4vcdww0000gp/T/tmp0zlDBO/DERIVED_FILE_DIR/armv7", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/var/folders/pc/yshrjpfx6v9339cjhg4vcdww0000gp/T/tmp0zlDBO/DERIVED_FILE_DIR", 
+            "type": "I"
+        }
+    ], 
+    "infoplists": [
+        "./Test/Test-Info.plist"
+    ], 
+    "libs": [], 
+    "modules": [], 
+    "pchs": [
+        "./Test/Test-Prefix.pch"
+    ], 
+    "sources": [
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc++", 
+            "source": "GLKMathUtils.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc++", 
+            "source": "GLKMatrix3.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc++", 
+            "source": "Test/AppDelegate.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc++", 
+            "source": "Test/ViewController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc++", 
+            "source": "Test/main.m"
+        }
+    ], 
+    "storyboards": [], 
+    "type": "app", 
+    "version": "3", 
+    "xcdatamodels": [], 
+    "xcode_project": "Test.xcodeproj", 
+    "xibs": [
+        {
+            "target": null, 
+            "xib": "Test/ViewController.xib"
+        }
+    ]
+}

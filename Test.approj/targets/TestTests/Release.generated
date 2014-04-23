@@ -1,0 +1,81 @@
+{
+    "assets": [], 
+    "config": {
+        "TEMPLATE_VALUES": {}
+    }, 
+    "defines": {
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 70000
+    }, 
+    "deps": [
+        "UIKit", 
+        "StoreKit", 
+        "AdSupport", 
+        "UIKit", 
+        "SystemConfiguration", 
+        "QuartzCore", 
+        "MediaPlayer", 
+        "AudioToolbox", 
+        "AVFoundation", 
+        "CoreMedia", 
+        "CFNetwork", 
+        "CoreLocation", 
+        "CoreFoundation", 
+        "CoreAudio", 
+        "OpenGLES", 
+        "CoreGraphics", 
+        "GLKit", 
+        "Foundation"
+    ], 
+    "flags": [
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wempty-body", 
+        "-Wshorten-64-to-32", 
+        "-Wno-deprecated-declarations", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wuninitialized", 
+        "-Wunused-function", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }, 
+        {
+            "flag": "-Wundeclared-selector", 
+            "type": "objc"
+        }
+    ], 
+    "header_paths": [], 
+    "infoplists": [
+        "./TestTests/TestTests-Info.plist"
+    ], 
+    "libs": [], 
+    "modules": [], 
+    "pchs": [
+        "./Test/Test-Prefix.pch"
+    ], 
+    "sources": [], 
+    "storyboards": [], 
+    "type": "com.apple.product-type.bundle.unit-test", 
+    "version": "3", 
+    "xcdatamodels": [], 
+    "xcode_project": "Test.xcodeproj", 
+    "xibs": []
+}
